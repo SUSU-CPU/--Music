@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="box">
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <div class="left fl">
+        <div class="playing">
+          <div class="music-img fl">
+            <img class="auto-img" src="./images/1.jpg">
+            <!-- 放大层 -->
+            <div class="largen">
+              <img class="auto-img" src="./images/big.png">
+            </div>
+          </div>
+          <div class="music-name fl">
+            <div class="message fl">
+              <p></p>
+              <p></p>
+            </div>
+            <div class="like fl">
+              <div class="likeIt">
+                <!-- <img class="auto-img" src="./images/heart.png"> -->
+              </div>
+              <div class="shareIt">
+                <img class="auto-img" src="./images/share.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="music-list">
+          <div class="my-music">
+            <div class="title">
+              <p>我的音乐</p>
+            </div>
+            <div class="list">
+              <ul>
+                <li id="localMusic" class="active"><i></i><span><img class="auto-img"
+                      src="./images/Music.png"></span><a>播放列表</a></li>
+                <li id="likeMusic"><i></i><span><img class="auto-img" src="./images/heart.png"></span><a>我喜欢的音乐</a></li>
+                <!-- <li id="collectMusic"><i></i><span><img class="auto-img" src="./images/star.png"></span><a>我的收藏</a></li> -->
+                <li id="recentlyMusic"><i></i><span><img class="auto-img" src="./images/lately.png"></span><a>最近播放</a>
+                </li>
+                <li id="handpickMusic"><i></i><span><img class="auto-img" src="./images/local.png"></span><a>本地音乐</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="right fr">
+        <div class="myMusic-local localMusic">
+          <div class="local-top">
+            <ul class="clear">
+              <li></li>
+              <li>音乐标题</li>
+              <li>歌手</li>
+              <li>时长</li>
+              <li>大小</li>
+              <li>专辑</li>
+            </ul>
+          </div>
+          <div class="local-down music-message">
+          </div>
+        </div>
+        <div class="myMusic-local likeMusic">
+          <div class="local-top">
+            <ul class="clear">
+              <li></li>
+              <li>音乐标题</li>
+              <li>歌手</li>
+              <li>时长</li>
+              <li>大小</li>
+              <li>专辑</li>
+            </ul>
+          </div>
+          <div class="local-down music-message">
+          </div>
+        </div>
+        <!-- <div class="myMusic-local collectMusic">
+          <div class="local-top">
+            <ul class="clear">
+              <li></li>
+              <li>音乐标题</li>
+              <li>歌手</li>
+              <li>时长</li>
+              <li>大小</li>
+              <li>专辑</li>
+            </ul>
+          </div>
+          <div class="local-down music-message">
+          </div>
+        </div> -->
+        <div class="myMusic-local recentlyMusic">
+          <div class="local-top">
+            <ul class="clear">
+              <li></li>
+              <li>音乐标题</li>
+              <li>歌手</li>
+              <li>时长</li>
+              <li>大小</li>
+              <li>专辑</li>
+            </ul>
+          </div>
+          <div class="local-down music-message">
+          </div>
+        </div>
+        <div class="myMusic-local handpickMusic">
+          <div class="local-top">
+            <ul class="clear">
+              <li></li>
+              <li>音乐标题</li>
+              <li>歌手</li>
+              <li>时长</li>
+              <li>大小</li>
+              <li>专辑</li>
+            </ul>
+          </div>
+          <div class="local-down music-message">
+          </div>
+        </div>
+        <!-- 歌词面板 -->
+        <div class="lyric">
+          <div class="lyric-box">
+          </div>
+          <div class="closeRic"><img class="auto-img" src="./images/small.png"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="music-cut">
+        <div class="prev">
+          <div class="img">
+            <img class="auto-img" src="./images/prev.png">
+          </div>
+        </div>
+        <div class="play" state='stop'>
+          <div class="img">
+            <img class="auto-img" src="./images/play.png">
+          </div>
+        </div>
+        <div class="next">
+          <div class="img">
+            <img class="auto-img" src="./images/next.png">
+          </div>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="audios-music"></div>
+        <div class="progress-bar fl">
+          <div class="real-time">00.00</div>
+          <div class="plan">
+            <div class="plan-box">
+              <div class="plan-active"></div>
+            </div>
+            <div class="plan-btn"></div>
+            <div class="plan-layer"></div>
+          </div>
+          <div class="total-time">00.00</div>
+        </div>
+        <div class="music-type fl">
+          <div class="cyclic fl">
+            <div class="default-pattern">
+              <div class="default-icon " data-pattern='0' title='列表循环'><img class="auto-img" src="./images/circ.png">
+              </div>
+            </div>
+          </div>
+          <div class="music-words fl"></div>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </div>
+</body>
+
+</html>
